@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty"},
         glue = {"com.nttdata"},
         features = "classpath:features",
-        tags = "@test1"   //  ==> Definir el @tag  a ejecutar
+        tags = "@consultaOrden"   //  ==> Definir el @tag  a ejecutara
 )
 public class CucumberTestSuite {
 }
